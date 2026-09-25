@@ -12,11 +12,11 @@ HEADERS: Dict[str, str] = {
     "content-type": "application/json; charset=utf-8",
     "x-requested-with": "com.android.browser",
     "accept-encoding": "gzip, deflate, br",
-    "host": "capi-v2.sankakucomplex.com"
+    "host": "https://sankakuapi.com"
 }
 
 BASE_URL = "https://login.sankakucomplex.com"
-API_URL = "https://capi-v2.sankakucomplex.com"
+API_URL = "https://sankakuapi.com"
 
 LOGIN_URL = f"{BASE_URL}/auth/token"
 POSTS_URL = f"{API_URL}/posts"
@@ -35,8 +35,8 @@ TAG_WIKI_URL = f"{API_URL}/tag-and-wiki{{ref}}/{{name_or_id}}"
 BOOK_URL = f"{BOOKS_URL}/{{book_id}}"
 USER_URL = f"{USERS_URL}{{ref}}/{{name_or_id}}"
 
-BASE_RPS = 3
-BASE_RPM = 180
+BASE_RPS = 3 # this pussy wanna be tested
+BASE_RPM = 180 # this too
 
 BASE_RANGE_START = 0
 BASE_RANGE_STEP = 1

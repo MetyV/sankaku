@@ -4,3 +4,4 @@ pytest-cov~=4.0.0
 yapf~=0.40.1
 ruff~=0.0.282
 pyright~=1.1.320
+# i'll change it.... in future
