@@ -27,7 +27,7 @@ class BaseClient(ABCClient):
         """Base client used for login."""
         self._profile: Optional[mdl.ExtendedUser] = None
         self._http_client: HttpClient = HttpClient()
-        self._access_token: Optional[str] = None  # TODO: ability to update access token
+        self._access_token: Optional[str] = None  # TODO: ability to update access token... i'll do this later ;)
         self._token_type: Optional[str] = None
 
     async def _login_via_credentials(self, login: str, password: str) -> None:

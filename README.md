@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/zerex290/sankaku">
-    <img src="https://raw.githubusercontent.com/zerex290/sankaku/main/docs/icon.png" alt="Sankaku Complex"
+  <a href="https://github.com/MetyV/sankaku">
+    <img src="https://raw.githubusercontent.com/MetyV/sankaku/main/docs/icon.png" alt="Sankaku Complex"
     width="150" height="150"/>
   </a>
   <div>sankaku</div>
@@ -9,7 +9,7 @@
 
 ## About
 
-Asynchronous API wrapper for [Sankaku Complex](https://beta.sankakucomplex.com)
+Asynchronous API wrapper for [Sankaku Complex](https://www.sankakucomplex.com)
 with *type-hinting*, pydantic *data validation* and an optional *logging support*
 with loguru.
 
@@ -21,9 +21,12 @@ with loguru.
 
 ### Useful links
 
+> **Note:** No guarantee that the pages from the links above are up-to-date.
+> This is a fork of the original `zerex290/sankaku`, which hasn't been updated
+> since 2023. Some links may lead to dead pages or outdated documentation.
 - [Documentation](https://zerex290.github.io/sankaku)
 - [API Reference](https://zerex290.github.io/sankaku/api)
-- [Source code](https://github.com/zerex290/sankaku)
+- [Source code](https://github.com/MetyV/sankaku)
 
 ## Requirements
 
